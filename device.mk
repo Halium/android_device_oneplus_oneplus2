@@ -312,6 +312,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ubuntu.widi.supported=1
 
+#fix fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.fingerprint=msm8994
+
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
