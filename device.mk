@@ -312,9 +312,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ubuntu.widi.supported=1
 
-#fix fingerprint
+#fix fingerprint and gatekeeper
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.fingerprint=msm8994
+    ro.hardware.fingerprint=msm8994 \
+    ro.hardware.gatekeeper=msm8994
 
 
 PRODUCT_COPY_FILES += \
