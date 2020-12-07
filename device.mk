@@ -297,11 +297,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/ubuntu/base:system/halium/etc/apparmor.d/abstractions/base \
     $(LOCAL_PATH)/ubuntu/environment:system/halium/etc/environment
 
-# Ubuntu Touch Fix MTP connection
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/halium/usr/share/usbinit/setupusb:system/halium/usr/share/usbinit/setupusb \
-    $(LOCAL_PATH)/rootdir/system/halium/usr/share/upstart/sessions/mtp-server.conf:system/halium/usr/share/upstart/sessions/mtp-server.conf \
-    $(LOCAL_PATH)/rootdir/system/halium/etc/init/mtp-state.conf:system/halium/etc/init/mtp-state.conf
 
 
 
